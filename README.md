@@ -1,5 +1,5 @@
 # os2openclient
-linux configuration management and deployment
+Linux configuration management, OS deployment and monitoring.
 
 ## Architecture proposal
 
