@@ -2,7 +2,6 @@ name: Requirement specification
 description: Submit a requirement
 title: "[Requirement]: "
 labels: ["epic"]
-assignees:
 body:
   - type: markdown
     attributes:
@@ -17,7 +16,6 @@ body:
         - Who is the user? (Stakeholder, persona, role)
         - What do they want to do? (Action)
         - Why do they want to do it? (Value or Justification)
-      value: ""
     validations:
       required: true
   - type: checkboxes
