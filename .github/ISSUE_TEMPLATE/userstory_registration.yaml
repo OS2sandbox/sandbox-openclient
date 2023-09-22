@@ -20,10 +20,10 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: terms
+    id: tasks
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Break down user story into tasks, features and epics
+      description: Register issues explaning what needs to be done to solving the problem/demand. 
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: First task
           required: true
