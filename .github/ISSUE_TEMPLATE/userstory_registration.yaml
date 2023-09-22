@@ -1,6 +1,6 @@
 name: What problem needs to be solved?
 description: Submit a User Story describing what challenge or problem needs to be adressed or solved
-title: "[Requirement]: "
+title: "User Story"
 labels: ["epic"]
 body:
   - type: markdown
