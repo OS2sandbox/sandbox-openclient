@@ -1,21 +1,22 @@
-name: Requirement specification
-description: Submit a requirement
+name: What problem needs to be solved?
+description: Submit a User Story describing what challenge or problem needs to be adressed or solved
 title: "[Requirement]: "
 labels: ["epic"]
 body:
   - type: markdown
     attributes:
       value: |
-        Please register the user story behind the requirement below!
+        Please register the user story below!
   - type: textarea
     id: user-story
     attributes:
       label: Register user story for requirement
       description: Also tell us, what did you expect to happen?
       placeholder: |
-        - Who is the user? (Stakeholder, persona, role)
-        - What do they want to do? (Action)
-        - Why do they want to do it? (Value or Justification)
+        AS A {user|persona|system},
+        [INSTEAD OF {current condition}]
+        I WANT TO {action}
+        [SO THAT {value or justification}]
     validations:
       required: true
   - type: checkboxes
