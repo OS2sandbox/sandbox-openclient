@@ -22,7 +22,7 @@ app1(Chromium browser kiosk_mode)
 end
 
 subgraph Backend
-logengine(Grafana)
+logengine(Logs and notifications promtail-loki-Grafana)
 configman(Konfiguration github.com/ansible);
 netboot(Deploy github.com/netboot.xyz);
 semaphore(ManagementUI- ansible-semaphore);
