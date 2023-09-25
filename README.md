@@ -23,17 +23,19 @@ end
 
 subgraph NUC
 debarm(OS2OpenClient debian_x64)-.-
-app2(Chromium browser kiosk_mode)
+app2(App)
+promtail1(log push - promtail)
 end
 
 
 subgraph RPi
 debx64(OS2OpenClient debian_armx64)-.-
-app1(Chromium browser kiosk_mode)
+app1(App)
+promtail2(log push - promtail)
 end
 
 subgraph Backend
-logengine(Logs and notifications promtail-loki-Grafana)
+logengine(Logs and notifications loki-Grafana);
 configman(Konfiguration github.com/ansible);
 netboot(Deploy github.com/netboot.xyz);
 semaphore(ManagementUI- ansible-semaphore);
@@ -43,7 +45,7 @@ configman-.-netboot
 management<--HTTP-->semaphore & logengine
 configman--SSH-->RPi & NUC
 netboot--TFTP-->RPi & NUC
-semaphore & logengine-.-configman
-
+semaphore-.-configman
+logengine-.-RPi & NUC
 
 ```
