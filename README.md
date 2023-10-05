@@ -3,6 +3,7 @@ Linux configuration management, OS deployment and monitoring.
 
 ## Quick start guide
 - Make sure your demo enviroment has docker and compose installed
+- Open SSH on port 22 on the device you want to manage and add it to same network as the demo enviroment.
 - Clone this repo to your demo enviroment
 - Open a terminal, cd into the root of the cloned repo
 - Run docker compose up
