@@ -1,6 +1,13 @@
 # os2openclient
 Linux configuration management, OS deployment and monitoring.
 
+## Quick start guide
+- Make sure your demo enviroment has docker and compose installed
+- Clone this repo to your demo enviroment
+- Open a terminal, cd into the root of the cloned repo
+- Run docker compose up
+- The semaphore UI is availble on port 3000 in a browser
+
 ## Architecture proposal
 
 ### Cornerstone backend components:
