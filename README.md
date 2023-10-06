@@ -9,7 +9,7 @@ Standards based Linux configuration management, OS deployment and monitoring.
 ### Cornerstone backend components:
 - Secure Push based device management & Automation - [Ansible](https://www.ansible.com/overview/how-ansible-works)
 - Operating systems deployment  - [netboot.xyz](https://netboot.xyz/docs)
-- Obeservability and notifications - [Promtail-Loki-Grafana](https://grafana.com/oss/loki/) - MQTT datasource + Grafana could be a simpler alternative, requires a mqtt client instead of a promtail client.
+- Obeservability and notifications - [Promtail-Loki-Grafana](https://grafana.com/oss/loki/) - MQTT datasource + Grafana could be a simpler alternative, requires a mqtt client and a brooker service instead of a promtail client.
 
 ### Clients
 - debian for arm and x64 devices
