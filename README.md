@@ -1,5 +1,8 @@
 # os2openclient
-Linux configuration management, OS deployment and monitoring.
+Standards based Linux configuration management, OS deployment and monitoring.
+
+#### Executive summary in Danish 🇩🇰:
+*Vi arbejder på at skabe en simpel, standardiseret og åben platform, der gør det nemt at implementere, administrere og overvåge applikationer. Vores projekt er baseret på et åbent operativsystem og bruger kendte standard værktøjer til at sikre en problemfri drift. Formålet er at tjene som det grundlæggende system for forskellige løsninger, såsom digitale skilte og offentlige tilgængelige internet pcere.*
 
 ## Quick start guide
 - Make sure your demo enviroment has docker and compose installed
@@ -14,7 +17,7 @@ Linux configuration management, OS deployment and monitoring.
 ### Cornerstone backend components:
 - Secure Push based device management & Automation - [Ansible](https://www.ansible.com/overview/how-ansible-works)
 - Operating systems deployment  - [netboot.xyz](https://netboot.xyz/docs)
-- Obeservability and notifications - [Promtail-Loki-Grafana](https://grafana.com/oss/loki/) - MQTT datasource + Grafana could be a simpler alternative, requires a mqtt client instead of a promtail client.
+- Obeservability and notifications - [Promtail-Loki-Grafana](https://grafana.com/oss/loki/) - MQTT datasource + Grafana could be a simpler alternative, requires a mqtt client and a brooker service instead of a promtail client.
 
 ### Clients
 - debian for arm and x64 devices
