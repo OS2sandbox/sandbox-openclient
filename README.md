@@ -1,4 +1,4 @@
-# os2openclient
+# 📱 os2openclient
 Standards based Linux configuration management, OS deployment and monitoring.
 
 #### Executive summary in Danish 🇩🇰:
