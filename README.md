@@ -45,7 +45,7 @@ end
 
 subgraph Backend
 logengine(Logs and notifications loki-Grafana);
-configman(Konfiguration ansible);
+configman(Automation & Configuration Management - ansible);
 netboot(Deploy netboot.xyz);
 semaphore(ManagementUI- ansible-semaphore);
 end
