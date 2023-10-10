@@ -4,6 +4,14 @@ Standards based Linux configuration management, OS deployment and monitoring.
 #### Executive summary in Danish 🇩🇰:
 *Vi arbejder på at skabe en simpel, standardiseret og åben platform, der gør det nemt at implementere, administrere og overvåge applikationer. Vores projekt er baseret på et åbent operativsystem og bruger kendte standard værktøjer til at sikre en problemfri drift. Formålet er at tjene som det grundlæggende system for forskellige løsninger, såsom digitale skilte og offentlige tilgængelige internet pcere.*
 
+## Quick start guide
+- Make sure your demo enviroment has docker and compose installed
+- Open SSH on port 22 on the device you want to manage and add it to same network as the demo enviroment.
+- Clone this repo to your demo enviroment
+- Open a terminal, cd into the root of the cloned repo
+- Run docker compose up
+- The semaphore UI is availble on port 3000 in a browser
+
 ## Architecture proposal
 
 ### Cornerstone backend components:
