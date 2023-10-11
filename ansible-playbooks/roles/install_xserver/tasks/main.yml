@@ -1,0 +1,8 @@
+---
+- name: Install X server packages
+  apt:
+    name:
+      - xserver-xorg
+      - xinit
+      - x11-xserver-utils
+    state: present

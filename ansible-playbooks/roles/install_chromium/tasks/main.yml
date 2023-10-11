@@ -1,0 +1,22 @@
+---
+- name: Install Chromium package
+  apt:
+    name: chromium-browser
+    state: present
+
+- name: Create Chromium policy file directory
+  file:
+    path: /var/snap/chromium/current/policies/managed/
+    state: directory
+
+- name: Create Chromium policy file
+  copy:
+    dest: /var/snap/chromium/current/policies/managed/os2borgerpc-defaults.json
+    content: |
+      {
+        "AutofillAddressEnabled": false,
+        "AutofillCreditCardEnabled": false,
+        "AutoplayAllowed": true,
+        "PasswordManagerEnabled": false,
+        "TranslateEnabled": false
+      }
