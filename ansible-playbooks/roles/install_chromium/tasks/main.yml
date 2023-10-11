@@ -11,7 +11,7 @@
 
 - name: Create Chromium policy file
   copy:
-    dest: /var/snap/chromium/current/policies/managed/os2borgerpc-defaults.json
+    dest: "{{ chromium_policy_file }}"
     content: |
       {
         "AutofillAddressEnabled": false,
