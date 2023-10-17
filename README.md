@@ -19,6 +19,7 @@ Standards based Linux configuration management, OS deployment and monitoring.
 - Operating systems deployment  - [netboot.xyz](https://netboot.xyz/docs)
 - Obeservability and notifications - [Promtail-Loki-Grafana](https://grafana.com/oss/loki/) - MQTT datasource + Grafana could be a simpler alternative, requires a mqtt client and a brooker service instead of a promtail client.
 - Dynamic inventories with device IPs and IDs from promtail/syslog pushes.
+- All device management features are implemented as open standardized ansible playbooks, no custom code or backend dependencies.
 
 ### Clients
 - debian for arm and x64 devices
