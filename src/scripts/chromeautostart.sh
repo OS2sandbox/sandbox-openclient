@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Make Chromium autostart, fx. in preparation for OS2Display.
+# Make Chromium autostart.
 
 # Policies:
 # AutofillAddressEnabled: Disable Autofill of addresses

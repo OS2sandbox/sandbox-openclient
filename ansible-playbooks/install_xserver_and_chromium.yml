@@ -1,7 +1,0 @@
----
-- name: Install X and Chromium
-  hosts: "{{ target_hosts }}"  # The hosts on which the playbook should be run
-  become: yes  # Run tasks with sudo privileges
-  roles:
-    - xserver
-    - chromium

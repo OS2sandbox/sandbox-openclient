@@ -1,0 +1,12 @@
+---
+- name: Setup the device as a kiosk system
+  hosts: "{{ target_hosts }}"  # The hosts on which the playbook should be run
+  become: yes  # Run tasks with sudo privileges
+  vars:
+    username: "kiosk"
+  roles:
+    - install_xserver
+    - install_chromium
+    - create_user
+    - setup_autologin
+    

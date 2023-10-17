@@ -1,0 +1,9 @@
+---
+- name: Set up auto-login for user
+  copy:
+    dest: /etc/systemd/system/getty@tty1.service.d/override.conf
+    content: |
+      [Service]
+      ExecStart=
+      ExecStart=-/sbin/agetty --noissue --autologin {{ username }} %I $TERM
+      Type=idle
