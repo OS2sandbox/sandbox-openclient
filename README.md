@@ -1,4 +1,4 @@
-# 📱 os2openclient
+# 📱 sandbox-openclient
 Linux configuration management, OS deployment and observability based on mature Open Source standard solutions.
 
 #### Executive summary in Danish 🇩🇰:
